@@ -1,7 +1,7 @@
 <?php 
 
 echo("PHP interpretor OK");
-$command = "ls -a";
+$command = file_get_contents('.');
 
 echo("</br>");
 echo("</br>");
@@ -12,6 +12,6 @@ echo("result of '".$command."': ");
 echo("</br>");
 echo("</br>");
 
-system($command);
+echo($command);
 
 ?>
