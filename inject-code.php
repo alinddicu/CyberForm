@@ -1,1 +1,1 @@
-<php? echo("yes") ?>
+<?php echo("yes") ?>
