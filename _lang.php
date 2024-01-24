@@ -7,7 +7,7 @@ echo("</br>");
 echo("</br>");
 echo("</br>");
 
-echo("result of ".$command);
+echo("result of '".$command."': ");
 
 echo("</br>");
 echo("</br>");
